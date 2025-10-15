@@ -66,7 +66,6 @@ Author
 
 Deekshitha Chinamuttevi
 
-
 Repository
 
 The project repository can be accessed at: https://github.com/Deekshitha0304/CradleAutomation
