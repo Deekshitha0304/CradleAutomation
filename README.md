@@ -1,51 +1,72 @@
 CradleAutomation
 
-An Arduino-based Smart Cradle project for baby monitoring and automatic rocking.
+An Arduino-based Smart Cradle for automatic rocking and baby monitoring.
 
-🧠 Overview
-CradleAutomation is designed to automatically rock a baby cradle while monitoring environmental conditions such as sound, movement, and temperature. It ensures comfort and safety for infants with minimal manual effort.
+Overview
 
-⚙️ Features
+CradleAutomation is a smart cradle system designed to automatically rock a baby while monitoring environmental conditions such as sound, movement, temperature, and humidity. It helps parents ensure infant comfort and safety with minimal manual effort.
 
-Automatic cradle motion control
+Features
 
-Sound and vibration detection
+Automatic cradle motion control using a servo motor.
 
-Temperature and humidity monitoring
+Detection of sound and vibration for baby activity monitoring.
 
-IoT integration for real-time alerts
+Temperature and humidity monitoring with real-time readings.
 
-Mobile app integration for remote monitoring and control
+IoT integration for remote monitoring and alerts.
 
-Hardware Used
+Mobile app integration for controlling the cradle and receiving notifications.
 
-Arduino Uno
+Hardware Components
 
-Servo Motor
+Arduino Uno – Main microcontroller.
 
-Sound Sensor
+Servo Motor – Controls cradle rocking motion.
 
-Temperature & Humidity Sensor (DHT11)
+Sound Sensor – Detects baby’s crying or environmental noise.
 
-Relay Module
+Temperature & Humidity Sensor (DHT11) – Monitors room conditions.
 
-Wi-Fi Module (ESP8266)
+Relay Module – Controls external devices if required.
 
-💻 How to Run
+Wi-Fi Module (ESP8266) – Enables IoT connectivity.
+
+Software Requirements
+
+Arduino IDE (latest version recommended)
+
+Required libraries:
+
+DHT sensor library
+
+ESP8266WiFi library
+
+How to Run
 
 Open CradleAutomation.ino in Arduino IDE.
 
-Connect your Arduino board and upload the code.
+Connect your Arduino board via USB.
 
-Monitor the serial output for readings and cradle actions.
+Ensure all hardware components are connected correctly.
 
-📦 Future Enhancements
+Upload the code to the Arduino board.
 
-Advanced mobile app features (notifications, control, analytics)
+Open the Serial Monitor to view real-time readings and cradle actions.
 
-Cloud data logging
+Future Enhancements
 
-AI-based cry sound detection
+Advanced mobile app integration for control and monitoring.
 
-👩‍💻 Author
+Cloud-based data logging for analytics and historical tracking.
+
+AI-based cry sound recognition to automate cradle response.
+
+Author
+
 Deekshitha Chinamuttevi
+
+
+Repository
+
+The project repository can be accessed at: https://github.com/Deekshitha0304/CradleAutomation
